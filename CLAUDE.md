@@ -44,4 +44,6 @@ Each game is a self-contained single HTML file with embedded CSS and JavaScript.
 
 - **Remote**: `origin` → `https://github.com/aparnabivera/retro-shooter-game.git`
 - **Branch**: `main`
-- **Always commit and push**: After making any changes, commit with a clear descriptive message and `git push origin main`. The project should always have a saved version on GitHub for easy rollback.
+- **Commit early and often**: As you work, commit changes regularly — not just at the end of a task. Every meaningful step (new feature, bug fix, refactor, config change) should get its own commit with a clean, descriptive message.
+- **Always push to GitHub**: After each commit, run `git push origin main` so the work is saved remotely. We should never lose progress — if something breaks, we can always revert to a previous commit.
+- **Clean commit messages**: Each commit message should clearly describe what was changed and why. Keep them concise but informative.
