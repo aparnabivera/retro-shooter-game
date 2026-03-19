@@ -40,6 +40,8 @@ Each game is a self-contained single HTML file with embedded CSS and JavaScript.
 - **Retro aesthetic**: neon green (#00ff00) on dark background, "Press Start 2P" Google Font
 - **Game config values** (spawn rates, speeds, health) are inline constants — no config file
 
-## Workflow
+## Git Workflow
 
+- **Remote**: `origin` → `https://github.com/aparnabivera/retro-shooter-game.git`
+- **Branch**: `main`
 - **Always commit and push**: After making any changes, commit with a clear descriptive message and `git push origin main`. The project should always have a saved version on GitHub for easy rollback.
