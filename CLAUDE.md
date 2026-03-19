@@ -39,3 +39,7 @@ Each game is a self-contained single HTML file with embedded CSS and JavaScript.
 - **Naming**: camelCase for variables/functions, PascalCase for classes, SCREAMING_SNAKE for state constants
 - **Retro aesthetic**: neon green (#00ff00) on dark background, "Press Start 2P" Google Font
 - **Game config values** (spawn rates, speeds, health) are inline constants — no config file
+
+## Workflow
+
+- **Always commit and push**: After making any changes, commit with a clear descriptive message and `git push origin main`. The project should always have a saved version on GitHub for easy rollback.
